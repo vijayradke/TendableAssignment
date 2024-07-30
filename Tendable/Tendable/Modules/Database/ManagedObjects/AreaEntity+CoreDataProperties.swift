@@ -2,7 +2,7 @@
 //  AreaEntity+CoreDataProperties.swift
 //  Tendable
 //
-//  Created by Vijay Radake.
+//  Created by Vijay Radake on 30/07/24.
 //
 //
 
@@ -18,6 +18,7 @@ extension AreaEntity {
 
     @NSManaged public var id: Int16
     @NSManaged public var name: String?
+    @NSManaged public var relationshipInspection: InspectionEntity?
 
 }
 

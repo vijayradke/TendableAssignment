@@ -2,7 +2,7 @@
 //  CategoryEntity+CoreDataProperties.swift
 //  Tendable
 //
-//  Created by Vijay Radake.
+//  Created by Vijay Radake on 30/07/24.
 //
 //
 
@@ -19,6 +19,7 @@ extension CategoryEntity {
     @NSManaged public var id: Int16
     @NSManaged public var name: String?
     @NSManaged public var questions: NSOrderedSet?
+    @NSManaged public var relationshipSurvey: SurveyEntity?
 
 }
 

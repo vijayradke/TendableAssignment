@@ -2,7 +2,7 @@
 //  InspectionEntity+CoreDataProperties.swift
 //  Tendable
 //
-//  Created by Vijay Radake.
+//  Created by Vijay Radake on 30/07/24.
 //
 //
 
@@ -16,12 +16,13 @@ extension InspectionEntity {
         return NSFetchRequest<InspectionEntity>(entityName: "InspectionEntity")
     }
 
-    @NSManaged public var id: Int16
     @NSManaged public var email: String?
+    @NSManaged public var id: Int16
+    @NSManaged public var submitStatus: Bool
     @NSManaged public var area: AreaEntity?
     @NSManaged public var inspectionType: InspectionTypeEntity?
     @NSManaged public var survey: SurveyEntity?
-    @NSManaged public var submitStatus: Bool
+
 }
 
 extension InspectionEntity : Identifiable {

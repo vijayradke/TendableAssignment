@@ -41,7 +41,7 @@ class RegisterViewModel: ObservableObject {
             await MainActor.run {
                 self.isLoading = false
                 switch result {
-                case .success(let model):
+                case .success:
                     self.registrationResult = .success
                 case .failure(let error):
                     self.parseError(error)

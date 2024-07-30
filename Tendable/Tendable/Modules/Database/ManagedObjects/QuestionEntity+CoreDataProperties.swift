@@ -2,7 +2,7 @@
 //  QuestionEntity+CoreDataProperties.swift
 //  Tendable
 //
-//  Created by Vijay Radake.
+//  Created by Vijay Radake on 30/07/24.
 //
 //
 
@@ -20,6 +20,7 @@ extension QuestionEntity {
     @NSManaged public var name: String?
     @NSManaged public var selectedAnswerChoiceId: Int16
     @NSManaged public var answerChoices: NSOrderedSet?
+    @NSManaged public var relationshipCategory: CategoryEntity?
 
 }
 

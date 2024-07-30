@@ -2,7 +2,7 @@
 //  AnswerChoiceEntity+CoreDataProperties.swift
 //  Tendable
 //
-//  Created by Vijay Radake.
+//  Created by Vijay Radake on 30/07/24.
 //
 //
 
@@ -19,6 +19,7 @@ extension AnswerChoiceEntity {
     @NSManaged public var id: Int16
     @NSManaged public var name: String?
     @NSManaged public var score: Double
+    @NSManaged public var relationshipQuestion: QuestionEntity?
 
 }
 

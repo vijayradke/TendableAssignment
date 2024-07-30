@@ -79,7 +79,7 @@ extension ShowcaseInpectionViewModel {
                 case .success(let model):
                     self.inspectionReceived(model: model)
                     self.storage.storeInspection(model: model)
-                case .failure(let error):
+                case .failure:
                     self.retryInspection = true
                 }
             }
