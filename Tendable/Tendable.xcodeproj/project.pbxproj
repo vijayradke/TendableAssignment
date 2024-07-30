@@ -40,7 +40,7 @@
 		8B766BE02C51057300352503 /* SubmitInspection.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B766BDF2C51057300352503 /* SubmitInspection.json */; };
 		8B766BE22C52143D00352503 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B766BE12C52143D00352503 /* View+Extension.swift */; };
 		8B766BE42C521C9700352503 /* AppTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B766BE32C521C9700352503 /* AppTextFieldStyle.swift */; };
-		8BECAC2A2C58B77D00FFAF37 /* Tendable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BECAC282C58B77D00FFAF37 /* Tendable.xcdatamodeld */; };
+		8BF0ED612C58F5480000C93B /* Tendable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0ED5F2C58F5480000C93B /* Tendable.xcdatamodeld */; };
 		DA4530A12C4BA01200910962 /* InspectionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4530A02C4BA01200910962 /* InspectionDataModel.swift */; };
 		DA4530A32C4BB48600910962 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4530A22C4BB48500910962 /* RegisterViewModel.swift */; };
 		DA4530A52C4BBE2E00910962 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4530A42C4BBE2E00910962 /* AuthView.swift */; };
@@ -121,7 +121,7 @@
 		8B766BDF2C51057300352503 /* SubmitInspection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SubmitInspection.json; sourceTree = "<group>"; };
 		8B766BE12C52143D00352503 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		8B766BE32C521C9700352503 /* AppTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextFieldStyle.swift; sourceTree = "<group>"; };
-		8BECAC292C58B77D00FFAF37 /* Tendable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tendable.xcdatamodel; sourceTree = "<group>"; };
+		8BF0ED602C58F5480000C93B /* Tendable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tendable.xcdatamodel; sourceTree = "<group>"; };
 		DA4530A02C4BA01200910962 /* InspectionDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionDataModel.swift; sourceTree = "<group>"; };
 		DA4530A22C4BB48500910962 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		DA4530A42C4BBE2E00910962 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -350,7 +350,7 @@
 		DAED05322C4AA635006F9A66 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				8BECAC282C58B77D00FFAF37 /* Tendable.xcdatamodeld */,
+				8BF0ED5F2C58F5480000C93B /* Tendable.xcdatamodeld */,
 				DAED05682C4AE617006F9A66 /* ManagedObjects */,
 				DAED05302C4AA635006F9A66 /* Persistence.swift */,
 			);
@@ -666,7 +666,7 @@
 				8B766BC32C4FCC1D00352503 /* SurveyEntity+CoreDataProperties.swift in Sources */,
 				8B766BBF2C4FCC1D00352503 /* CategoryEntity+CoreDataClass.swift in Sources */,
 				8B766BA02C4FA51300352503 /* ShowcaseInpectionViewModel.swift in Sources */,
-				8BECAC2A2C58B77D00FFAF37 /* Tendable.xcdatamodeld in Sources */,
+				8BF0ED612C58F5480000C93B /* Tendable.xcdatamodeld in Sources */,
 				DAED05562C4AA83A006F9A66 /* RegisterView.swift in Sources */,
 				8B766BC22C4FCC1D00352503 /* QuestionEntity+CoreDataProperties.swift in Sources */,
 				8B766B9E2C4FA4FF00352503 /* ShowcaseInpectionView.swift in Sources */,
@@ -1044,14 +1044,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8BECAC282C58B77D00FFAF37 /* Tendable.xcdatamodeld */ = {
+		8BF0ED5F2C58F5480000C93B /* Tendable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8BECAC292C58B77D00FFAF37 /* Tendable.xcdatamodel */,
+				8BF0ED602C58F5480000C93B /* Tendable.xcdatamodel */,
 			);
-			currentVersion = 8BECAC292C58B77D00FFAF37 /* Tendable.xcdatamodel */;
-			name = Tendable.xcdatamodeld;
-			path = /Users/vijayrad/WorkingProjects/1Study/MyTendable/TendableAssignment/Tendable/Tendable/Modules/Database/Tendable.xcdatamodeld;
+			currentVersion = 8BF0ED602C58F5480000C93B /* Tendable.xcdatamodel */;
+			path = Tendable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
